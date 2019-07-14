@@ -1,0 +1,37 @@
+/******   Global styles   ******/
+@font-face {
+	font-family: 'myFont';
+	src: url('fonts/HelveticaNeue.woff2') format('woff2'), 
+		url('fonts/HelveticaNeue.woff') format('woff'),
+		url('fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;					/******   FIX FONT AND GLOBAL STYLES  ******/
+}
+
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: #111116;
+	/* text */
+	font-family: 'myFont', Fallback, sans-serif;
+	color: #f0ffff;
+	font-size: 1em;
+	letter-spacing: 1px;
+	user-select: none;
+}
+
+svg {
+	shape-rendering: geometricPrecision;
+}
