@@ -60,7 +60,7 @@ module.exports = {
 		"vue/singleline-html-element-content-newline": ["error", {
 			"ignoreWhenNoAttributes": true,
 			"ignoreWhenEmpty": true,
-			"ignores": ["pre", "textarea","n-link"]
+			"ignores": ["pre", "textarea","n-link","span"]
 		}]
 	}
 }

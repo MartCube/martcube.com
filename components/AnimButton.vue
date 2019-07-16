@@ -17,11 +17,9 @@ export default {
 	methods: {
 		buttonEnter() {
 			buttonEnter(this.$refs.btnPath, this.$refs.btnSpan)
-			console.log('enter')
 		},
 		buttonLeave() {
 			buttonleave(this.$refs.btnPath, this.$refs.btnSpan)
-			console.log('leave')
 		},
 	},
 }
