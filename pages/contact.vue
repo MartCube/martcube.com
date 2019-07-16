@@ -1,5 +1,5 @@
 <template>
-	<form ref="contact" class="contact" name="contact" action="/thank-you" netlify-honeypot="bot-field" method="POST" autocomplete="off" netlify>
+	<form ref="contact" class="contact" name="contact" action="/" netlify-honeypot="bot-field" method="POST" autocomplete="off" netlify>
 		<!-- eslint-disable-next-line -->
 		<input type="hidden" name="form-name" value="contact">	<p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
 
@@ -108,14 +108,14 @@ input {
 .input_anim {
 	border: 0;
 	padding: 7px 0;
-	border-bottom: 2px solid azure;
+	border-bottom: 2.5px solid azure;
 
 	~ .focus-border {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		width: 0;
-		height: 2px;
+		height: 2.5px;
 		background-color: #3399ff;
 		transition: 0.3s;
 	}

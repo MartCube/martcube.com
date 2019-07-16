@@ -77,43 +77,6 @@ export function contactAnimation(title, text_inputs, buttons) {
 		)
 }
 
-export function aboutAnimation(anim, text, buttons) {
-	const StartUpTimeline = anime.timeline({
-		autoplay: true,
-	})
-
-	StartUpTimeline.add({
-		targets: anim,
-		easing: 'easeInCubic',
-		opacity: 1,
-		duration: 500,
-	})
-		.add({
-			targets: text,
-			easing: 'easeInCubic',
-			delay: function(text_inputs, index) {
-				return index * 100
-			},
-			opacity: 1,
-			duration: 500,
-			offset: 400,
-		})
-		.add(
-			{
-				targets: buttons,
-				translateX: ['-400%', '0%'],
-				easing: 'easeInOutElastic',
-				delay: function(buttons, index) {
-					return index * 50
-				},
-
-				opacity: 1,
-				duration: 2500,
-			},
-			0,
-		)
-}
-
 export function easeInCubicAnimation(el) {
 	const StartUpTimeline = anime.timeline({
 		autoplay: true,

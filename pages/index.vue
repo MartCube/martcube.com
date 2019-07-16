@@ -16,8 +16,8 @@
 			<anim-button class="red" href="https://codepen.io/martcube/" target="_blank">
 				CodePen
 			</anim-button>
-			<anim-button class="blue" href="/about">
-				About
+			<anim-button class="blue" href="https://drive.google.com/open?id=1jFwYQ9yb-ViLXJ_gZXAzcvGO580F-P3L" target="_blank">
+				About me
 			</anim-button>
 			<anim-button class="yellow" href="/contact">
 				Contact
