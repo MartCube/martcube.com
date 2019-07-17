@@ -1,6 +1,5 @@
 # martcube.com
 
-![](static/mart.gif)
 
 ## Build Setup
 
