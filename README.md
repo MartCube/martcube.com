@@ -1,6 +1,6 @@
 # martcube.com
 
-> My slick Nuxt.js project
+![](mart.gif)
 
 ## Build Setup
 
