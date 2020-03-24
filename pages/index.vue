@@ -25,7 +25,7 @@
 		</div>
 
 		<div class="footer">
-			<span>&copy; 2019 Mart Cube</span>
+			<span>&copy; 2020 Mart Cube</span>
 		</div>
 	</div>
 </template>

@@ -9,7 +9,7 @@ export function indexAnimation(logo, buttons, footer) {
 		targets: logo,
 		strokeDashoffset: [anime.setDashoffset, 0],
 		easing: 'easeInOutSine',
-		delay: anime.stagger(250),
+		delay: anime.stagger(500),
 
 		opacity: [0, 1],
 		duration: 1000,
